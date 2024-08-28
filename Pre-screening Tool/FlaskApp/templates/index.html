@@ -77,10 +77,9 @@
         
         <label for="Income">Income:</label>
         <input type="number" id="Income" required min="1" max="8">
-        
         <button type="submit">Predict</button>
     </form>
     <div id="result"></div>
-    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}?v={{ script_version }}"></script>
 </body>
 </html>
