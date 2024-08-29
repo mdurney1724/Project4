@@ -15,67 +15,67 @@
 <body>
     <h1>Diabetes Prediction</h1>
     <form id="predictionForm">
-        <label for="HighBP">High Blood Pressure:</label>
+        <label for="HighBP">High Blood Pressure (0 = no high BP 1 = high BP):</label>
         <input type="number" id="HighBP" required min="0" max="1">
         
-        <label for="HighChol">High Cholesterol:</label>
+        <label for="HighChol">High Cholesterol (0 = no high BP 1 = high BP):</label>
         <input type="number" id="HighChol" required min="0" max="1">
         
-        <label for="CholCheck">Cholesterol Check:</label>
+        <label for="CholCheck">Cholesterol Check (0 = no high cholesterol 1 = high cholesterol):</label>
         <input type="number" id="CholCheck" required min="0" max="1">
         
-        <label for="BMI">BMI:</label>
+        <label for="BMI">BMI (Your Body Mass Index):</label>
         <input type="number" id="BMI" required step="0.1">
         
-        <label for="Smoker">Smoker:</label>
+        <label for="Smoker">Smoker (Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes] 0 = no 1 = yes):</label>
         <input type="number" id="Smoker" required min="0" max="1">
         
-        <label for="Stroke">Stroke:</label>
+        <label for="Stroke">Stroke ((Ever told) you had a stroke. 0 = no 1 = yes):</label>
         <input type="number" id="Stroke" required min="0" max="1">
         
-        <label for="HeartDiseaseorAttack">Heart Disease or Attack:</label>
+        <label for="HeartDiseaseorAttack">Heart Disease or Attack (Coronary heart disease (CHD) or myocardial infarction (MI) 0 = no 1 = yes):</label>
         <input type="number" id="HeartDiseaseorAttack" required min="0" max="1">
         
-        <label for="PhysActivity">Physical Activity:</label>
+        <label for="PhysActivity">Physical Activity (Physical activity in past 30 days - not including job 0 = no 1 = yes):</label>
         <input type="number" id="PhysActivity" required min="0" max="1">
         
-        <label for="Fruits">Fruits Consumption:</label>
+        <label for="Fruits">Fruits Consumption (Consume Fruit 1 or more times per day 0 = no 1 = yes):</label>
         <input type="number" id="Fruits" required min="0" max="1">
         
-        <label for="Veggies">Vegetables Consumption:</label>
+        <label for="Veggies">Vegetables Consumption (Consume Vegetables 1 or more times per day 0 = no 1 = yes):</label>
         <input type="number" id="Veggies" required min="0" max="1">
         
-        <label for="HvyAlcoholConsump">Heavy Alcohol Consumption:</label>
+        <label for="HvyAlcoholConsump">Heavy Alcohol Consumption (Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week) 0 = no 1 = yes):</label>
         <input type="number" id="HvyAlcoholConsump" required min="0" max="1">
         
-        <label for="AnyHealthcare">Any Healthcare:</label>
+        <label for="AnyHealthcare">Any Healthcare (Have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. 0 = no 1 = yes):</label>
         <input type="number" id="AnyHealthcare" required min="0" max="1">
         
-        <label for="NoDocbcCost">No Doctor due to Cost:</label>
+        <label for="NoDocbcCost">No Doctor due to Cost (Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 0 = no 1 = yes):</label>
         <input type="number" id="NoDocbcCost" required min="0" max="1">
         
-        <label for="GenHlth">General Health:</label>
+        <label for="GenHlth">General Health (Would you say that in general your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor):</label>
         <input type="number" id="GenHlth" required min="1" max="5">
         
-        <label for="MentHlth">Mental Health:</label>
+        <label for="MentHlth">Mental Health (Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? scale 1-30 days):</label>
         <input type="number" id="MentHlth" required min="0" max="30">
         
-        <label for="PhysHlth">Physical Health:</label>
+        <label for="PhysHlth">Physical Health (Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? scale 1-30 days):</label>
         <input type="number" id="PhysHlth" required min="0" max="30">
         
-        <label for="DiffWalk">Difficulty Walking:</label>
+        <label for="DiffWalk">Difficulty Walking (Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes):</label>
         <input type="number" id="DiffWalk" required min="0" max="1">
         
-        <label for="Sex">Sex:</label>
+        <label for="Sex">Sex (0 = female 1 = male):</label>
         <input type="number" id="Sex" required min="0" max="1">
         
-        <label for="Age">Age:</label>
+        <label for="Age">Age (13-level age category:1= 18-24 2=25-29 3=30-34 4=35-39 5=40-44 6=45-49 7=50-54 8=55-59 9= 60-64 10=65-69 11=70-74 12=75-79 13= 80 or older):</label>
         <input type="number" id="Age" required min="1" max="13">
         
-        <label for="Education">Education:</label>
+        <label for="Education">Education (Education level: scale 1-6 1= Never attended school or only kindergarten 2= Grades 1 through 8 (Elementary) 3= Grades 9 through 11 (Some high school) 4= Grade 12 or GED (High school graduate) 5= College 1 year to 3 years (Some college or technical school) 6= College 4 years or more (College graduate)):</label>
         <input type="number" id="Education" required min="1" max="6">
         
-        <label for="Income">Income:</label>
+        <label for="Income">Income (Income scale: scale 1-8 1= less than $10,000 2=$10.000-$15,000 3=less than $20,000 4=less than $25,000 5=less than $35,000 6=less than $55,000 7=less than $75,000 8=$75,000 or more):</label>
         <input type="number" id="Income" required min="1" max="8">
         <button type="submit">Predict</button>
     </form>
