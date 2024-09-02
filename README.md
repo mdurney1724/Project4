@@ -15,8 +15,6 @@ Prediction Endpoint: The /predict route accepts POST requests with JSON-formatte
 # Example Request
 To make a prediction, send a POST request to /predict with a JSON payload like this:
 
-      json
-      Copy code
       {
         "gender": 1,
         "age": 45,
@@ -30,8 +28,6 @@ To make a prediction, send a POST request to /predict with a JSON payload like t
 # Example Response
 The API will respond with a JSON object containing the probability of diabetes and a prediction message:
 
-      json
-      Copy code
       {
         "probability": 0.75,
         "prediction": "At risk for diabetes"
