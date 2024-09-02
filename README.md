@@ -4,7 +4,6 @@ This Flask API allows users to predict the likelihood of diabetes based on speci
 # Files in This Project
 - app.py: The main Flask application file.
 - diabetes_prediction_model.h5: The pre-trained TensorFlow model used for making predictions.
-- templates/index.html: The HTML template for the home page.
 
 # How It Works
 
